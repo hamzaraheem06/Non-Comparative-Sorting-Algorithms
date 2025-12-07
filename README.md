@@ -25,8 +25,8 @@ The implementation includes corrected algorithms, performance analysis, automate
 1. **Open Project in VS Code**
 
    ```bash
-   cd /workspace
-   code .
+   git clone https://github.com/hamzaraheem06/Non-Comparative-Sorting-Algorithms
+   cd /Non-Comparative-Sorting-Algorithms
    ```
 
 2. **Install C++ Extension**
