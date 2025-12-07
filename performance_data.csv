@@ -1,0 +1,1009 @@
+Algorithm,ArraySize,ValueRange,ExecutionTime_us,MemoryUsed_bytes,Distribution,EdgeCase
+Counting Sort (Non-Stable),100,50,4,204,uniform,false
+Counting Sort (Stable),100,50,3,604,uniform,false
+Radix Sort (LSD),100,50,18,800,uniform,false
+Bucket Sort,100,50,30,800,uniform,false
+Flash Sort,100,50,45,800,uniform,false
+Spread Sort,100,50,18,400,uniform,false
+Counting Sort (Non-Stable),100,50,3,184,normal,false
+Counting Sort (Stable),100,50,1,584,normal,false
+Radix Sort (LSD),100,50,16,800,normal,false
+Bucket Sort,100,50,25,800,normal,false
+Flash Sort,100,50,32,800,normal,false
+Spread Sort,100,50,17,400,normal,false
+Counting Sort (Non-Stable),100,50,3,200,skewed,false
+Counting Sort (Stable),100,50,1,600,skewed,false
+Radix Sort (LSD),100,50,16,800,skewed,false
+Bucket Sort,100,50,24,800,skewed,false
+Flash Sort,100,50,29,800,skewed,false
+Spread Sort,100,50,17,400,skewed,false
+Counting Sort (Non-Stable),100,50,1,204,concentrated,false
+Counting Sort (Stable),100,50,2,604,concentrated,false
+Radix Sort (LSD),100,50,16,800,concentrated,false
+Bucket Sort,100,50,17,800,concentrated,false
+Flash Sort,100,50,25,800,concentrated,false
+Spread Sort,100,50,16,400,concentrated,false
+Counting Sort (Non-Stable),100,100,3,404,uniform,false
+Counting Sort (Stable),100,100,1,804,uniform,false
+Radix Sort (LSD),100,100,28,800,uniform,false
+Bucket Sort,100,100,27,800,uniform,false
+Flash Sort,100,100,29,800,uniform,false
+Spread Sort,100,100,28,400,uniform,false
+Counting Sort (Non-Stable),100,100,3,332,normal,false
+Counting Sort (Stable),100,100,1,732,normal,false
+Radix Sort (LSD),100,100,16,800,normal,false
+Bucket Sort,100,100,26,800,normal,false
+Flash Sort,100,100,27,800,normal,false
+Spread Sort,100,100,16,400,normal,false
+Counting Sort (Non-Stable),100,100,3,404,skewed,false
+Counting Sort (Stable),100,100,2,804,skewed,false
+Radix Sort (LSD),100,100,28,800,skewed,false
+Bucket Sort,100,100,26,800,skewed,false
+Flash Sort,100,100,28,800,skewed,false
+Spread Sort,100,100,29,400,skewed,false
+Counting Sort (Non-Stable),100,100,2,404,concentrated,false
+Counting Sort (Stable),100,100,2,804,concentrated,false
+Radix Sort (LSD),100,100,28,800,concentrated,false
+Bucket Sort,100,100,21,800,concentrated,false
+Flash Sort,100,100,26,800,concentrated,false
+Spread Sort,100,100,28,400,concentrated,false
+Counting Sort (Non-Stable),100,500,5,1984,uniform,false
+Counting Sort (Stable),100,500,3,2384,uniform,false
+Radix Sort (LSD),100,500,28,800,uniform,false
+Bucket Sort,100,500,26,800,uniform,false
+Flash Sort,100,500,42,800,uniform,false
+Spread Sort,100,500,28,400,uniform,false
+Counting Sort (Non-Stable),100,500,4,1740,normal,false
+Counting Sort (Stable),100,500,2,2140,normal,false
+Radix Sort (LSD),100,500,28,800,normal,false
+Bucket Sort,100,500,28,800,normal,false
+Flash Sort,100,500,29,800,normal,false
+Spread Sort,100,500,28,400,normal,false
+Counting Sort (Non-Stable),100,500,4,1984,skewed,false
+Counting Sort (Stable),100,500,2,2384,skewed,false
+Radix Sort (LSD),100,500,28,800,skewed,false
+Bucket Sort,100,500,27,800,skewed,false
+Flash Sort,100,500,29,800,skewed,false
+Spread Sort,100,500,51,400,skewed,false
+Counting Sort (Non-Stable),100,500,4,2004,concentrated,false
+Counting Sort (Stable),100,500,2,2404,concentrated,false
+Radix Sort (LSD),100,500,28,800,concentrated,false
+Bucket Sort,100,500,24,800,concentrated,false
+Flash Sort,100,500,29,800,concentrated,false
+Spread Sort,100,500,28,400,concentrated,false
+Counting Sort (Non-Stable),100,1000,11,3984,uniform,false
+Counting Sort (Stable),100,1000,4,4384,uniform,false
+Radix Sort (LSD),100,1000,28,800,uniform,false
+Bucket Sort,100,1000,29,800,uniform,false
+Flash Sort,100,1000,29,800,uniform,false
+Spread Sort,100,1000,28,400,uniform,false
+Counting Sort (Non-Stable),100,1000,5,3952,normal,false
+Counting Sort (Stable),100,1000,3,4352,normal,false
+Radix Sort (LSD),100,1000,27,800,normal,false
+Bucket Sort,100,1000,25,800,normal,false
+Flash Sort,100,1000,29,800,normal,false
+Spread Sort,100,1000,28,400,normal,false
+Counting Sort (Non-Stable),100,1000,5,3956,skewed,false
+Counting Sort (Stable),100,1000,3,4356,skewed,false
+Radix Sort (LSD),100,1000,28,800,skewed,false
+Bucket Sort,100,1000,30,800,skewed,false
+Flash Sort,100,1000,29,800,skewed,false
+Spread Sort,100,1000,28,400,skewed,false
+Counting Sort (Non-Stable),100,1000,5,3884,concentrated,false
+Counting Sort (Stable),100,1000,2,4284,concentrated,false
+Radix Sort (LSD),100,1000,27,800,concentrated,false
+Bucket Sort,100,1000,25,800,concentrated,false
+Flash Sort,100,1000,28,800,concentrated,false
+Spread Sort,100,1000,28,400,concentrated,false
+Counting Sort (Non-Stable),100,5000,40,19936,uniform,false
+Counting Sort (Stable),100,5000,7,20336,uniform,false
+Radix Sort (LSD),100,5000,40,800,uniform,false
+Bucket Sort,100,5000,29,800,uniform,false
+Flash Sort,100,5000,31,800,uniform,false
+Spread Sort,100,5000,9,400,uniform,false
+Counting Sort (Non-Stable),100,5000,10,16904,normal,false
+Counting Sort (Stable),100,5000,7,17304,normal,false
+Radix Sort (LSD),100,5000,40,800,normal,false
+Bucket Sort,100,5000,27,800,normal,false
+Flash Sort,100,5000,28,800,normal,false
+Spread Sort,100,5000,9,400,normal,false
+Counting Sort (Non-Stable),100,5000,11,19832,skewed,false
+Counting Sort (Stable),100,5000,7,20232,skewed,false
+Radix Sort (LSD),100,5000,40,800,skewed,false
+Bucket Sort,100,5000,28,800,skewed,false
+Flash Sort,100,5000,30,800,skewed,false
+Spread Sort,100,5000,10,400,skewed,false
+Counting Sort (Non-Stable),100,5000,11,19964,concentrated,false
+Counting Sort (Stable),100,5000,7,20364,concentrated,false
+Radix Sort (LSD),100,5000,39,800,concentrated,false
+Bucket Sort,100,5000,28,800,concentrated,false
+Flash Sort,100,5000,30,800,concentrated,false
+Spread Sort,100,5000,8,400,concentrated,false
+Counting Sort (Non-Stable),100,10000,71,39668,uniform,false
+Counting Sort (Stable),100,10000,61,40068,uniform,false
+Radix Sort (LSD),100,10000,40,800,uniform,false
+Bucket Sort,100,10000,34,800,uniform,false
+Flash Sort,100,10000,32,800,uniform,false
+Spread Sort,100,10000,9,400,uniform,false
+Counting Sort (Non-Stable),100,10000,69,36748,normal,false
+Counting Sort (Stable),100,10000,58,37148,normal,false
+Radix Sort (LSD),100,10000,40,800,normal,false
+Bucket Sort,100,10000,33,800,normal,false
+Flash Sort,100,10000,29,800,normal,false
+Spread Sort,100,10000,9,400,normal,false
+Counting Sort (Non-Stable),100,10000,67,39920,skewed,false
+Counting Sort (Stable),100,10000,94,40320,skewed,false
+Radix Sort (LSD),100,10000,40,800,skewed,false
+Bucket Sort,100,10000,33,800,skewed,false
+Flash Sort,100,10000,30,800,skewed,false
+Spread Sort,100,10000,9,400,skewed,false
+Counting Sort (Non-Stable),100,10000,68,39644,concentrated,false
+Counting Sort (Stable),100,10000,58,40044,concentrated,false
+Radix Sort (LSD),100,10000,41,800,concentrated,false
+Bucket Sort,100,10000,34,800,concentrated,false
+Flash Sort,100,10000,29,800,concentrated,false
+Spread Sort,100,10000,9,400,concentrated,false
+Counting Sort (Non-Stable),100,100000,403,398144,uniform,false
+Counting Sort (Stable),100,100000,117,398544,uniform,false
+Radix Sort (LSD),100,100000,53,800,uniform,false
+Bucket Sort,100,100000,106,800,uniform,false
+Flash Sort,100,100000,39,800,uniform,false
+Spread Sort,100,100000,10,400,uniform,false
+Counting Sort (Non-Stable),100,100000,363,345556,normal,false
+Counting Sort (Stable),100,100000,101,345956,normal,false
+Radix Sort (LSD),100,100000,52,800,normal,false
+Bucket Sort,100,100000,109,800,normal,false
+Flash Sort,100,100000,38,800,normal,false
+Spread Sort,100,100000,10,400,normal,false
+Counting Sort (Non-Stable),100,100000,175,119568,skewed,false
+Counting Sort (Stable),100,100000,37,119968,skewed,false
+Radix Sort (LSD),100,100000,52,800,skewed,false
+Bucket Sort,100,100000,61,800,skewed,false
+Flash Sort,100,100000,36,800,skewed,false
+Spread Sort,100,100000,10,400,skewed,false
+Counting Sort (Non-Stable),100,100000,382,390644,concentrated,false
+Counting Sort (Stable),100,100000,115,391044,concentrated,false
+Radix Sort (LSD),100,100000,53,800,concentrated,false
+Bucket Sort,100,100000,123,800,concentrated,false
+Flash Sort,100,100000,39,800,concentrated,false
+Spread Sort,100,100000,10,400,concentrated,false
+Counting Sort (Non-Stable),500,50,4,204,uniform,false
+Counting Sort (Stable),500,50,3,2204,uniform,false
+Radix Sort (LSD),500,50,82,4000,uniform,false
+Bucket Sort,500,50,108,4000,uniform,false
+Flash Sort,500,50,129,4000,uniform,false
+Spread Sort,500,50,79,2000,uniform,false
+Counting Sort (Non-Stable),500,50,3,204,normal,false
+Counting Sort (Stable),500,50,3,2204,normal,false
+Radix Sort (LSD),500,50,73,4000,normal,false
+Bucket Sort,500,50,90,4000,normal,false
+Flash Sort,500,50,102,4000,normal,false
+Spread Sort,500,50,73,2000,normal,false
+Counting Sort (Non-Stable),500,50,4,204,skewed,false
+Counting Sort (Stable),500,50,4,2204,skewed,false
+Radix Sort (LSD),500,50,90,4000,skewed,false
+Bucket Sort,500,50,83,4000,skewed,false
+Flash Sort,500,50,105,4000,skewed,false
+Spread Sort,500,50,72,2000,skewed,false
+Counting Sort (Non-Stable),500,50,3,204,concentrated,false
+Counting Sort (Stable),500,50,3,2204,concentrated,false
+Radix Sort (LSD),500,50,72,4000,concentrated,false
+Bucket Sort,500,50,55,4000,concentrated,false
+Flash Sort,500,50,90,4000,concentrated,false
+Spread Sort,500,50,78,2000,concentrated,false
+Counting Sort (Non-Stable),500,100,4,404,uniform,false
+Counting Sort (Stable),500,100,3,2404,uniform,false
+Radix Sort (LSD),500,100,125,4000,uniform,false
+Bucket Sort,500,100,118,4000,uniform,false
+Flash Sort,500,100,117,4000,uniform,false
+Spread Sort,500,100,129,2000,uniform,false
+Counting Sort (Non-Stable),500,100,4,388,normal,false
+Counting Sort (Stable),500,100,4,2388,normal,false
+Radix Sort (LSD),500,100,71,4000,normal,false
+Bucket Sort,500,100,94,4000,normal,false
+Flash Sort,500,100,110,4000,normal,false
+Spread Sort,500,100,74,2000,normal,false
+Counting Sort (Non-Stable),500,100,5,404,skewed,false
+Counting Sort (Stable),500,100,3,2404,skewed,false
+Radix Sort (LSD),500,100,125,4000,skewed,false
+Bucket Sort,500,100,113,4000,skewed,false
+Flash Sort,500,100,116,4000,skewed,false
+Spread Sort,500,100,139,2000,skewed,false
+Counting Sort (Non-Stable),500,100,3,404,concentrated,false
+Counting Sort (Stable),500,100,3,2404,concentrated,false
+Radix Sort (LSD),500,100,127,4000,concentrated,false
+Bucket Sort,500,100,68,4000,concentrated,false
+Flash Sort,500,100,104,4000,concentrated,false
+Spread Sort,500,100,131,2000,concentrated,false
+Counting Sort (Non-Stable),500,500,10,2004,uniform,false
+Counting Sort (Stable),500,500,5,4004,uniform,false
+Radix Sort (LSD),500,500,128,4000,uniform,false
+Bucket Sort,500,500,162,4000,uniform,false
+Flash Sort,500,500,117,4000,uniform,false
+Spread Sort,500,500,127,2000,uniform,false
+Counting Sort (Non-Stable),500,500,9,1824,normal,false
+Counting Sort (Stable),500,500,4,3824,normal,false
+Radix Sort (LSD),500,500,126,4000,normal,false
+Bucket Sort,500,500,138,4000,normal,false
+Flash Sort,500,500,135,4000,normal,false
+Spread Sort,500,500,130,2000,normal,false
+Counting Sort (Non-Stable),500,500,10,2000,skewed,false
+Counting Sort (Stable),500,500,5,4000,skewed,false
+Radix Sort (LSD),500,500,127,4000,skewed,false
+Bucket Sort,500,500,170,4000,skewed,false
+Flash Sort,500,500,120,4000,skewed,false
+Spread Sort,500,500,127,2000,skewed,false
+Counting Sort (Non-Stable),500,500,5,2004,concentrated,false
+Counting Sort (Stable),500,500,4,4004,concentrated,false
+Radix Sort (LSD),500,500,125,4000,concentrated,false
+Bucket Sort,500,500,79,4000,concentrated,false
+Flash Sort,500,500,102,4000,concentrated,false
+Spread Sort,500,500,128,2000,concentrated,false
+Counting Sort (Non-Stable),500,1000,13,3988,uniform,false
+Counting Sort (Stable),500,1000,5,5988,uniform,false
+Radix Sort (LSD),500,1000,127,4000,uniform,false
+Bucket Sort,500,1000,152,4000,uniform,false
+Flash Sort,500,1000,108,4000,uniform,false
+Spread Sort,500,1000,126,2000,uniform,false
+Counting Sort (Non-Stable),500,1000,11,4004,normal,false
+Counting Sort (Stable),500,1000,5,6004,normal,false
+Radix Sort (LSD),500,1000,184,4000,normal,false
+Bucket Sort,500,1000,142,4000,normal,false
+Flash Sort,500,1000,220,4000,normal,false
+Spread Sort,500,1000,299,2000,normal,false
+Counting Sort (Non-Stable),500,1000,19,4000,skewed,false
+Counting Sort (Stable),500,1000,8,6000,skewed,false
+Radix Sort (LSD),500,1000,228,4000,skewed,false
+Bucket Sort,500,1000,267,4000,skewed,false
+Flash Sort,500,1000,144,4000,skewed,false
+Spread Sort,500,1000,128,2000,skewed,false
+Counting Sort (Non-Stable),500,1000,7,4004,concentrated,false
+Counting Sort (Stable),500,1000,5,6004,concentrated,false
+Radix Sort (LSD),500,1000,183,4000,concentrated,false
+Bucket Sort,500,1000,107,4000,concentrated,false
+Flash Sort,500,1000,116,4000,concentrated,false
+Spread Sort,500,1000,203,2000,concentrated,false
+Counting Sort (Non-Stable),500,5000,44,19964,uniform,false
+Counting Sort (Stable),500,5000,39,21964,uniform,false
+Radix Sort (LSD),500,5000,183,4000,uniform,false
+Bucket Sort,500,5000,160,4000,uniform,false
+Flash Sort,500,5000,123,4000,uniform,false
+Spread Sort,500,5000,183,2000,uniform,false
+Counting Sort (Non-Stable),500,5000,43,20004,normal,false
+Counting Sort (Stable),500,5000,37,22004,normal,false
+Radix Sort (LSD),500,5000,184,4000,normal,false
+Bucket Sort,500,5000,144,4000,normal,false
+Flash Sort,500,5000,113,4000,normal,false
+Spread Sort,500,5000,55,2000,normal,false
+Counting Sort (Non-Stable),500,5000,42,19980,skewed,false
+Counting Sort (Stable),500,5000,37,21980,skewed,false
+Radix Sort (LSD),500,5000,190,4000,skewed,false
+Bucket Sort,500,5000,152,4000,skewed,false
+Flash Sort,500,5000,126,4000,skewed,false
+Spread Sort,500,5000,182,2000,skewed,false
+Counting Sort (Non-Stable),500,5000,52,19964,concentrated,false
+Counting Sort (Stable),500,5000,42,21964,concentrated,false
+Radix Sort (LSD),500,5000,186,4000,concentrated,false
+Bucket Sort,500,5000,156,4000,concentrated,false
+Flash Sort,500,5000,122,4000,concentrated,false
+Spread Sort,500,5000,187,2000,concentrated,false
+Counting Sort (Non-Stable),500,10000,81,39756,uniform,false
+Counting Sort (Stable),500,10000,68,41756,uniform,false
+Radix Sort (LSD),500,10000,182,4000,uniform,false
+Bucket Sort,500,10000,150,4000,uniform,false
+Flash Sort,500,10000,118,4000,uniform,false
+Spread Sort,500,10000,55,2000,uniform,false
+Counting Sort (Non-Stable),500,10000,72,37284,normal,false
+Counting Sort (Stable),500,10000,66,39284,normal,false
+Radix Sort (LSD),500,10000,198,4000,normal,false
+Bucket Sort,500,10000,154,4000,normal,false
+Flash Sort,500,10000,110,4000,normal,false
+Spread Sort,500,10000,54,2000,normal,false
+Counting Sort (Non-Stable),500,10000,88,39912,skewed,false
+Counting Sort (Stable),500,10000,72,41912,skewed,false
+Radix Sort (LSD),500,10000,182,4000,skewed,false
+Bucket Sort,500,10000,162,4000,skewed,false
+Flash Sort,500,10000,109,4000,skewed,false
+Spread Sort,500,10000,55,2000,skewed,false
+Counting Sort (Non-Stable),500,10000,86,39964,concentrated,false
+Counting Sort (Stable),500,10000,72,41964,concentrated,false
+Radix Sort (LSD),500,10000,182,4000,concentrated,false
+Bucket Sort,500,10000,158,4000,concentrated,false
+Flash Sort,500,10000,117,4000,concentrated,false
+Spread Sort,500,10000,55,2000,concentrated,false
+Counting Sort (Non-Stable),500,100000,424,397640,uniform,false
+Counting Sort (Stable),500,100000,120,399640,uniform,false
+Radix Sort (LSD),500,100000,244,4000,uniform,false
+Bucket Sort,500,100000,233,4000,uniform,false
+Flash Sort,500,100000,120,4000,uniform,false
+Spread Sort,500,100000,52,2000,uniform,false
+Counting Sort (Non-Stable),500,100000,429,400004,normal,false
+Counting Sort (Stable),500,100000,120,402004,normal,false
+Radix Sort (LSD),500,100000,294,4000,normal,false
+Bucket Sort,500,100000,234,4000,normal,false
+Flash Sort,500,100000,112,4000,normal,false
+Spread Sort,500,100000,53,2000,normal,false
+Counting Sort (Non-Stable),500,100000,400,374748,skewed,false
+Counting Sort (Stable),500,100000,115,376748,skewed,false
+Radix Sort (LSD),500,100000,237,4000,skewed,false
+Bucket Sort,500,100000,191,4000,skewed,false
+Flash Sort,500,100000,106,4000,skewed,false
+Spread Sort,500,100000,53,2000,skewed,false
+Counting Sort (Non-Stable),500,100000,435,398724,concentrated,false
+Counting Sort (Stable),500,100000,120,400724,concentrated,false
+Radix Sort (LSD),500,100000,330,4000,concentrated,false
+Bucket Sort,500,100000,232,4000,concentrated,false
+Flash Sort,500,100000,127,4000,concentrated,false
+Spread Sort,500,100000,55,2000,concentrated,false
+Counting Sort (Non-Stable),1000,50,5,204,uniform,false
+Counting Sort (Stable),1000,50,8,4204,uniform,false
+Radix Sort (LSD),1000,50,153,8000,uniform,false
+Bucket Sort,1000,50,146,8000,uniform,false
+Flash Sort,1000,50,188,8000,uniform,false
+Spread Sort,1000,50,152,4000,uniform,false
+Counting Sort (Non-Stable),1000,50,5,188,normal,false
+Counting Sort (Stable),1000,50,6,4188,normal,false
+Radix Sort (LSD),1000,50,141,8000,normal,false
+Bucket Sort,1000,50,134,8000,normal,false
+Flash Sort,1000,50,205,8000,normal,false
+Spread Sort,1000,50,162,4000,normal,false
+Counting Sort (Non-Stable),1000,50,5,204,skewed,false
+Counting Sort (Stable),1000,50,7,4204,skewed,false
+Radix Sort (LSD),1000,50,151,8000,skewed,false
+Bucket Sort,1000,50,137,8000,skewed,false
+Flash Sort,1000,50,184,8000,skewed,false
+Spread Sort,1000,50,154,4000,skewed,false
+Counting Sort (Non-Stable),1000,50,4,204,concentrated,false
+Counting Sort (Stable),1000,50,7,4204,concentrated,false
+Radix Sort (LSD),1000,50,139,8000,concentrated,false
+Bucket Sort,1000,50,95,8000,concentrated,false
+Flash Sort,1000,50,154,8000,concentrated,false
+Spread Sort,1000,50,151,4000,concentrated,false
+Counting Sort (Non-Stable),1000,100,6,404,uniform,false
+Counting Sort (Stable),1000,100,6,4404,uniform,false
+Radix Sort (LSD),1000,100,368,8000,uniform,false
+Bucket Sort,1000,100,239,8000,uniform,false
+Flash Sort,1000,100,224,8000,uniform,false
+Spread Sort,1000,100,267,4000,uniform,false
+Counting Sort (Non-Stable),1000,100,6,396,normal,false
+Counting Sort (Stable),1000,100,6,4396,normal,false
+Radix Sort (LSD),1000,100,140,8000,normal,false
+Bucket Sort,1000,100,133,8000,normal,false
+Flash Sort,1000,100,197,8000,normal,false
+Spread Sort,1000,100,151,4000,normal,false
+Counting Sort (Non-Stable),1000,100,6,404,skewed,false
+Counting Sort (Stable),1000,100,6,4404,skewed,false
+Radix Sort (LSD),1000,100,269,8000,skewed,false
+Bucket Sort,1000,100,169,8000,skewed,false
+Flash Sort,1000,100,227,8000,skewed,false
+Spread Sort,1000,100,263,4000,skewed,false
+Counting Sort (Non-Stable),1000,100,4,404,concentrated,false
+Counting Sort (Stable),1000,100,7,4404,concentrated,false
+Radix Sort (LSD),1000,100,253,8000,concentrated,false
+Bucket Sort,1000,100,102,8000,concentrated,false
+Flash Sort,1000,100,164,8000,concentrated,false
+Spread Sort,1000,100,260,4000,concentrated,false
+Counting Sort (Non-Stable),1000,500,13,2004,uniform,false
+Counting Sort (Stable),1000,500,6,6004,uniform,false
+Radix Sort (LSD),1000,500,254,8000,uniform,false
+Bucket Sort,1000,500,282,8000,uniform,false
+Flash Sort,1000,500,241,8000,uniform,false
+Spread Sort,1000,500,261,4000,uniform,false
+Counting Sort (Non-Stable),1000,500,11,2004,normal,false
+Counting Sort (Stable),1000,500,6,6004,normal,false
+Radix Sort (LSD),1000,500,255,8000,normal,false
+Bucket Sort,1000,500,243,8000,normal,false
+Flash Sort,1000,500,245,8000,normal,false
+Spread Sort,1000,500,259,4000,normal,false
+Counting Sort (Non-Stable),1000,500,13,2004,skewed,false
+Counting Sort (Stable),1000,500,6,6004,skewed,false
+Radix Sort (LSD),1000,500,260,8000,skewed,false
+Bucket Sort,1000,500,266,8000,skewed,false
+Flash Sort,1000,500,237,8000,skewed,false
+Spread Sort,1000,500,257,4000,skewed,false
+Counting Sort (Non-Stable),1000,500,5,2004,concentrated,false
+Counting Sort (Stable),1000,500,6,6004,concentrated,false
+Radix Sort (LSD),1000,500,248,8000,concentrated,false
+Bucket Sort,1000,500,126,8000,concentrated,false
+Flash Sort,1000,500,180,8000,concentrated,false
+Spread Sort,1000,500,259,4000,concentrated,false
+Counting Sort (Non-Stable),1000,1000,18,4004,uniform,false
+Counting Sort (Stable),1000,1000,6,8004,uniform,false
+Radix Sort (LSD),1000,1000,375,8000,uniform,false
+Bucket Sort,1000,1000,308,8000,uniform,false
+Flash Sort,1000,1000,251,8000,uniform,false
+Spread Sort,1000,1000,366,4000,uniform,false
+Counting Sort (Non-Stable),1000,1000,15,3848,normal,false
+Counting Sort (Stable),1000,1000,7,7848,normal,false
+Radix Sort (LSD),1000,1000,247,8000,normal,false
+Bucket Sort,1000,1000,280,8000,normal,false
+Flash Sort,1000,1000,219,8000,normal,false
+Spread Sort,1000,1000,276,4000,normal,false
+Counting Sort (Non-Stable),1000,1000,18,4000,skewed,false
+Counting Sort (Stable),1000,1000,8,8000,skewed,false
+Radix Sort (LSD),1000,1000,249,8000,skewed,false
+Bucket Sort,1000,1000,312,8000,skewed,false
+Flash Sort,1000,1000,230,8000,skewed,false
+Spread Sort,1000,1000,250,4000,skewed,false
+Counting Sort (Non-Stable),1000,1000,13,4004,concentrated,false
+Counting Sort (Stable),1000,1000,7,8004,concentrated,false
+Radix Sort (LSD),1000,1000,356,8000,concentrated,false
+Bucket Sort,1000,1000,186,8000,concentrated,false
+Flash Sort,1000,1000,216,8000,concentrated,false
+Spread Sort,1000,1000,371,4000,concentrated,false
+Counting Sort (Non-Stable),1000,5000,68,20004,uniform,false
+Counting Sort (Stable),1000,5000,33,24004,uniform,false
+Radix Sort (LSD),1000,5000,364,8000,uniform,false
+Bucket Sort,1000,5000,282,8000,uniform,false
+Flash Sort,1000,5000,235,8000,uniform,false
+Spread Sort,1000,5000,384,4000,uniform,false
+Counting Sort (Non-Stable),1000,5000,44,19420,normal,false
+Counting Sort (Stable),1000,5000,21,23420,normal,false
+Radix Sort (LSD),1000,5000,359,8000,normal,false
+Bucket Sort,1000,5000,294,8000,normal,false
+Flash Sort,1000,5000,230,8000,normal,false
+Spread Sort,1000,5000,371,4000,normal,false
+Counting Sort (Non-Stable),1000,5000,52,20000,skewed,false
+Counting Sort (Stable),1000,5000,29,24000,skewed,false
+Radix Sort (LSD),1000,5000,500,8000,skewed,false
+Bucket Sort,1000,5000,327,8000,skewed,false
+Flash Sort,1000,5000,229,8000,skewed,false
+Spread Sort,1000,5000,379,4000,skewed,false
+Counting Sort (Non-Stable),1000,5000,41,20004,concentrated,false
+Counting Sort (Stable),1000,5000,20,24004,concentrated,false
+Radix Sort (LSD),1000,5000,366,8000,concentrated,false
+Bucket Sort,1000,5000,282,8000,concentrated,false
+Flash Sort,1000,5000,247,8000,concentrated,false
+Spread Sort,1000,5000,365,4000,concentrated,false
+Counting Sort (Non-Stable),1000,10000,101,40000,uniform,false
+Counting Sort (Stable),1000,10000,75,44000,uniform,false
+Radix Sort (LSD),1000,10000,367,8000,uniform,false
+Bucket Sort,1000,10000,307,8000,uniform,false
+Flash Sort,1000,10000,234,8000,uniform,false
+Spread Sort,1000,10000,391,4000,uniform,false
+Counting Sort (Non-Stable),1000,10000,96,40004,normal,false
+Counting Sort (Stable),1000,10000,73,44004,normal,false
+Radix Sort (LSD),1000,10000,478,8000,normal,false
+Bucket Sort,1000,10000,264,8000,normal,false
+Flash Sort,1000,10000,195,8000,normal,false
+Spread Sort,1000,10000,97,4000,normal,false
+Counting Sort (Non-Stable),1000,10000,62,39688,skewed,false
+Counting Sort (Stable),1000,10000,28,43688,skewed,false
+Radix Sort (LSD),1000,10000,283,8000,skewed,false
+Bucket Sort,1000,10000,256,8000,skewed,false
+Flash Sort,1000,10000,182,8000,skewed,false
+Spread Sort,1000,10000,313,4000,skewed,false
+Counting Sort (Non-Stable),1000,10000,60,40004,concentrated,false
+Counting Sort (Stable),1000,10000,32,44004,concentrated,false
+Radix Sort (LSD),1000,10000,381,8000,concentrated,false
+Bucket Sort,1000,10000,250,8000,concentrated,false
+Flash Sort,1000,10000,183,8000,concentrated,false
+Spread Sort,1000,10000,93,4000,concentrated,false
+Counting Sort (Non-Stable),1000,100000,343,397880,uniform,false
+Counting Sort (Stable),1000,100000,174,401880,uniform,false
+Radix Sort (LSD),1000,100000,384,8000,uniform,false
+Bucket Sort,1000,100000,257,8000,uniform,false
+Flash Sort,1000,100000,181,8000,uniform,false
+Spread Sort,1000,100000,93,4000,uniform,false
+Counting Sort (Non-Stable),1000,100000,347,400004,normal,false
+Counting Sort (Stable),1000,100000,173,404004,normal,false
+Radix Sort (LSD),1000,100000,466,8000,normal,false
+Bucket Sort,1000,100000,234,8000,normal,false
+Flash Sort,1000,100000,241,8000,normal,false
+Spread Sort,1000,100000,95,4000,normal,false
+Counting Sort (Non-Stable),1000,100000,282,287436,skewed,false
+Counting Sort (Stable),1000,100000,70,291436,skewed,false
+Radix Sort (LSD),1000,100000,437,8000,skewed,false
+Bucket Sort,1000,100000,207,8000,skewed,false
+Flash Sort,1000,100000,162,8000,skewed,false
+Spread Sort,1000,100000,90,4000,skewed,false
+Counting Sort (Non-Stable),1000,100000,368,399924,concentrated,false
+Counting Sort (Stable),1000,100000,101,403924,concentrated,false
+Radix Sort (LSD),1000,100000,460,8000,concentrated,false
+Bucket Sort,1000,100000,250,8000,concentrated,false
+Flash Sort,1000,100000,165,8000,concentrated,false
+Spread Sort,1000,100000,93,4000,concentrated,false
+Counting Sort (Non-Stable),2500,50,16,204,uniform,false
+Counting Sort (Stable),2500,50,10,10204,uniform,false
+Radix Sort (LSD),2500,50,295,20000,uniform,false
+Bucket Sort,2500,50,160,20000,uniform,false
+Flash Sort,2500,50,263,20000,uniform,false
+Spread Sort,2500,50,269,10000,uniform,false
+Counting Sort (Non-Stable),2500,50,13,204,normal,false
+Counting Sort (Stable),2500,50,8,10204,normal,false
+Radix Sort (LSD),2500,50,247,20000,normal,false
+Bucket Sort,2500,50,185,20000,normal,false
+Flash Sort,2500,50,258,20000,normal,false
+Spread Sort,2500,50,256,10000,normal,false
+Counting Sort (Non-Stable),2500,50,72,204,skewed,false
+Counting Sort (Stable),2500,50,11,10204,skewed,false
+Radix Sort (LSD),2500,50,296,20000,skewed,false
+Bucket Sort,2500,50,184,20000,skewed,false
+Flash Sort,2500,50,271,20000,skewed,false
+Spread Sort,2500,50,267,10000,skewed,false
+Counting Sort (Non-Stable),2500,50,11,204,concentrated,false
+Counting Sort (Stable),2500,50,8,10204,concentrated,false
+Radix Sort (LSD),2500,50,235,20000,concentrated,false
+Bucket Sort,2500,50,153,20000,concentrated,false
+Flash Sort,2500,50,209,20000,concentrated,false
+Spread Sort,2500,50,261,10000,concentrated,false
+Counting Sort (Non-Stable),2500,100,12,404,uniform,false
+Counting Sort (Stable),2500,100,8,10404,uniform,false
+Radix Sort (LSD),2500,100,413,20000,uniform,false
+Bucket Sort,2500,100,191,20000,uniform,false
+Flash Sort,2500,100,292,20000,uniform,false
+Spread Sort,2500,100,436,10000,uniform,false
+Counting Sort (Non-Stable),2500,100,6,404,normal,false
+Counting Sort (Stable),2500,100,8,10404,normal,false
+Radix Sort (LSD),2500,100,408,20000,normal,false
+Bucket Sort,2500,100,201,20000,normal,false
+Flash Sort,2500,100,295,20000,normal,false
+Spread Sort,2500,100,418,10000,normal,false
+Counting Sort (Non-Stable),2500,100,12,404,skewed,false
+Counting Sort (Stable),2500,100,7,10404,skewed,false
+Radix Sort (LSD),2500,100,407,20000,skewed,false
+Bucket Sort,2500,100,185,20000,skewed,false
+Flash Sort,2500,100,274,20000,skewed,false
+Spread Sort,2500,100,448,10000,skewed,false
+Counting Sort (Non-Stable),2500,100,12,404,concentrated,false
+Counting Sort (Stable),2500,100,9,10404,concentrated,false
+Radix Sort (LSD),2500,100,415,20000,concentrated,false
+Bucket Sort,2500,100,131,20000,concentrated,false
+Flash Sort,2500,100,186,20000,concentrated,false
+Spread Sort,2500,100,368,10000,concentrated,false
+Counting Sort (Non-Stable),2500,500,17,2004,uniform,false
+Counting Sort (Stable),2500,500,8,12004,uniform,false
+Radix Sort (LSD),2500,500,353,20000,uniform,false
+Bucket Sort,2500,500,309,20000,uniform,false
+Flash Sort,2500,500,352,20000,uniform,false
+Spread Sort,2500,500,379,10000,uniform,false
+Counting Sort (Non-Stable),2500,500,16,2004,normal,false
+Counting Sort (Stable),2500,500,8,12004,normal,false
+Radix Sort (LSD),2500,500,351,20000,normal,false
+Bucket Sort,2500,500,259,20000,normal,false
+Flash Sort,2500,500,310,20000,normal,false
+Spread Sort,2500,500,368,10000,normal,false
+Counting Sort (Non-Stable),2500,500,17,2004,skewed,false
+Counting Sort (Stable),2500,500,7,12004,skewed,false
+Radix Sort (LSD),2500,500,345,20000,skewed,false
+Bucket Sort,2500,500,311,20000,skewed,false
+Flash Sort,2500,500,330,20000,skewed,false
+Spread Sort,2500,500,378,10000,skewed,false
+Counting Sort (Non-Stable),2500,500,11,2004,concentrated,false
+Counting Sort (Stable),2500,500,7,12004,concentrated,false
+Radix Sort (LSD),2500,500,348,20000,concentrated,false
+Bucket Sort,2500,500,148,20000,concentrated,false
+Flash Sort,2500,500,202,20000,concentrated,false
+Spread Sort,2500,500,364,10000,concentrated,false
+Counting Sort (Non-Stable),2500,1000,21,4004,uniform,false
+Counting Sort (Stable),2500,1000,7,14004,uniform,false
+Radix Sort (LSD),2500,1000,504,20000,uniform,false
+Bucket Sort,2500,1000,387,20000,uniform,false
+Flash Sort,2500,1000,337,20000,uniform,false
+Spread Sort,2500,1000,522,10000,uniform,false
+Counting Sort (Non-Stable),2500,1000,21,4004,normal,false
+Counting Sort (Stable),2500,1000,7,14004,normal,false
+Radix Sort (LSD),2500,1000,506,20000,normal,false
+Bucket Sort,2500,1000,492,20000,normal,false
+Flash Sort,2500,1000,456,20000,normal,false
+Spread Sort,2500,1000,527,10000,normal,false
+Counting Sort (Non-Stable),2500,1000,21,4004,skewed,false
+Counting Sort (Stable),2500,1000,7,14004,skewed,false
+Radix Sort (LSD),2500,1000,502,20000,skewed,false
+Bucket Sort,2500,1000,401,20000,skewed,false
+Flash Sort,2500,1000,322,20000,skewed,false
+Spread Sort,2500,1000,563,10000,skewed,false
+Counting Sort (Non-Stable),2500,1000,11,4004,concentrated,false
+Counting Sort (Stable),2500,1000,9,14004,concentrated,false
+Radix Sort (LSD),2500,1000,567,20000,concentrated,false
+Bucket Sort,2500,1000,178,20000,concentrated,false
+Flash Sort,2500,1000,265,20000,concentrated,false
+Spread Sort,2500,1000,600,10000,concentrated,false
+Counting Sort (Non-Stable),2500,5000,56,20004,uniform,false
+Counting Sort (Stable),2500,5000,16,30004,uniform,false
+Radix Sort (LSD),2500,5000,564,20000,uniform,false
+Bucket Sort,2500,5000,462,20000,uniform,false
+Flash Sort,2500,5000,376,20000,uniform,false
+Spread Sort,2500,5000,587,10000,uniform,false
+Counting Sort (Non-Stable),2500,5000,44,20004,normal,false
+Counting Sort (Stable),2500,5000,17,30004,normal,false
+Radix Sort (LSD),2500,5000,532,20000,normal,false
+Bucket Sort,2500,5000,425,20000,normal,false
+Flash Sort,2500,5000,359,20000,normal,false
+Spread Sort,2500,5000,616,10000,normal,false
+Counting Sort (Non-Stable),2500,5000,69,20000,skewed,false
+Counting Sort (Stable),2500,5000,32,30000,skewed,false
+Radix Sort (LSD),2500,5000,654,20000,skewed,false
+Bucket Sort,2500,5000,535,20000,skewed,false
+Flash Sort,2500,5000,422,20000,skewed,false
+Spread Sort,2500,5000,663,10000,skewed,false
+Counting Sort (Non-Stable),2500,5000,36,20004,concentrated,false
+Counting Sort (Stable),2500,5000,27,30004,concentrated,false
+Radix Sort (LSD),2500,5000,647,20000,concentrated,false
+Bucket Sort,2500,5000,391,20000,concentrated,false
+Flash Sort,2500,5000,429,20000,concentrated,false
+Spread Sort,2500,5000,683,10000,concentrated,false
+Counting Sort (Non-Stable),2500,10000,86,39980,uniform,false
+Counting Sort (Stable),2500,10000,42,49980,uniform,false
+Radix Sort (LSD),2500,10000,660,20000,uniform,false
+Bucket Sort,2500,10000,533,20000,uniform,false
+Flash Sort,2500,10000,430,20000,uniform,false
+Spread Sort,2500,10000,824,10000,uniform,false
+Counting Sort (Non-Stable),2500,10000,73,40004,normal,false
+Counting Sort (Stable),2500,10000,27,50004,normal,false
+Radix Sort (LSD),2500,10000,849,20000,normal,false
+Bucket Sort,2500,10000,579,20000,normal,false
+Flash Sort,2500,10000,479,20000,normal,false
+Spread Sort,2500,10000,1022,10000,normal,false
+Counting Sort (Non-Stable),2500,10000,98,40004,skewed,false
+Counting Sort (Stable),2500,10000,35,50004,skewed,false
+Radix Sort (LSD),2500,10000,1009,20000,skewed,false
+Bucket Sort,2500,10000,606,20000,skewed,false
+Flash Sort,2500,10000,456,20000,skewed,false
+Spread Sort,2500,10000,907,10000,skewed,false
+Counting Sort (Non-Stable),2500,10000,86,40004,concentrated,false
+Counting Sort (Stable),2500,10000,64,50004,concentrated,false
+Radix Sort (LSD),2500,10000,1072,20000,concentrated,false
+Bucket Sort,2500,10000,513,20000,concentrated,false
+Flash Sort,2500,10000,470,20000,concentrated,false
+Spread Sort,2500,10000,882,10000,concentrated,false
+Counting Sort (Non-Stable),2500,100000,479,399996,uniform,false
+Counting Sort (Stable),2500,100000,278,409996,uniform,false
+Radix Sort (LSD),2500,100000,1012,20000,uniform,false
+Bucket Sort,2500,100000,704,20000,uniform,false
+Flash Sort,2500,100000,506,20000,uniform,false
+Spread Sort,2500,100000,286,10000,uniform,false
+Counting Sort (Non-Stable),2500,100000,367,400004,normal,false
+Counting Sort (Stable),2500,100000,113,410004,normal,false
+Radix Sort (LSD),2500,100000,1218,20000,normal,false
+Bucket Sort,2500,100000,675,20000,normal,false
+Flash Sort,2500,100000,474,20000,normal,false
+Spread Sort,2500,100000,283,10000,normal,false
+Counting Sort (Non-Stable),2500,100000,347,341244,skewed,false
+Counting Sort (Stable),2500,100000,101,351244,skewed,false
+Radix Sort (LSD),2500,100000,1080,20000,skewed,false
+Bucket Sort,2500,100000,486,20000,skewed,false
+Flash Sort,2500,100000,441,20000,skewed,false
+Spread Sort,2500,100000,285,10000,skewed,false
+Counting Sort (Non-Stable),2500,100000,362,400004,concentrated,false
+Counting Sort (Stable),2500,100000,112,410004,concentrated,false
+Radix Sort (LSD),2500,100000,1221,20000,concentrated,false
+Bucket Sort,2500,100000,732,20000,concentrated,false
+Flash Sort,2500,100000,495,20000,concentrated,false
+Spread Sort,2500,100000,284,10000,concentrated,false
+Counting Sort (Non-Stable),5000,50,27,204,uniform,false
+Counting Sort (Stable),5000,50,19,20204,uniform,false
+Radix Sort (LSD),5000,50,700,40000,uniform,false
+Bucket Sort,5000,50,388,40000,uniform,false
+Flash Sort,5000,50,603,40000,uniform,false
+Spread Sort,5000,50,663,20000,uniform,false
+Counting Sort (Non-Stable),5000,50,26,204,normal,false
+Counting Sort (Stable),5000,50,20,20204,normal,false
+Radix Sort (LSD),5000,50,609,40000,normal,false
+Bucket Sort,5000,50,345,40000,normal,false
+Flash Sort,5000,50,572,40000,normal,false
+Spread Sort,5000,50,658,20000,normal,false
+Counting Sort (Non-Stable),5000,50,33,204,skewed,false
+Counting Sort (Stable),5000,50,36,20204,skewed,false
+Radix Sort (LSD),5000,50,604,40000,skewed,false
+Bucket Sort,5000,50,435,40000,skewed,false
+Flash Sort,5000,50,620,40000,skewed,false
+Spread Sort,5000,50,658,20000,skewed,false
+Counting Sort (Non-Stable),5000,50,26,204,concentrated,false
+Counting Sort (Stable),5000,50,20,20204,concentrated,false
+Radix Sort (LSD),5000,50,598,40000,concentrated,false
+Bucket Sort,5000,50,379,40000,concentrated,false
+Flash Sort,5000,50,529,40000,concentrated,false
+Spread Sort,5000,50,651,20000,concentrated,false
+Counting Sort (Non-Stable),5000,100,31,404,uniform,false
+Counting Sort (Stable),5000,100,20,20404,uniform,false
+Radix Sort (LSD),5000,100,1055,40000,uniform,false
+Bucket Sort,5000,100,460,40000,uniform,false
+Flash Sort,5000,100,717,40000,uniform,false
+Spread Sort,5000,100,1076,20000,uniform,false
+Counting Sort (Non-Stable),5000,100,31,404,normal,false
+Counting Sort (Stable),5000,100,20,20404,normal,false
+Radix Sort (LSD),5000,100,1057,40000,normal,false
+Bucket Sort,5000,100,415,40000,normal,false
+Flash Sort,5000,100,697,40000,normal,false
+Spread Sort,5000,100,1100,20000,normal,false
+Counting Sort (Non-Stable),5000,100,35,404,skewed,false
+Counting Sort (Stable),5000,100,20,20404,skewed,false
+Radix Sort (LSD),5000,100,1180,40000,skewed,false
+Bucket Sort,5000,100,400,40000,skewed,false
+Flash Sort,5000,100,654,40000,skewed,false
+Spread Sort,5000,100,1146,20000,skewed,false
+Counting Sort (Non-Stable),5000,100,28,404,concentrated,false
+Counting Sort (Stable),5000,100,20,20404,concentrated,false
+Radix Sort (LSD),5000,100,1060,40000,concentrated,false
+Bucket Sort,5000,100,432,40000,concentrated,false
+Flash Sort,5000,100,561,40000,concentrated,false
+Spread Sort,5000,100,1109,20000,concentrated,false
+Counting Sort (Non-Stable),5000,500,37,2004,uniform,false
+Counting Sort (Stable),5000,500,19,22004,uniform,false
+Radix Sort (LSD),5000,500,1049,40000,uniform,false
+Bucket Sort,5000,500,840,40000,uniform,false
+Flash Sort,5000,500,1019,40000,uniform,false
+Spread Sort,5000,500,1105,20000,uniform,false
+Counting Sort (Non-Stable),5000,500,34,2004,normal,false
+Counting Sort (Stable),5000,500,19,22004,normal,false
+Radix Sort (LSD),5000,500,1050,40000,normal,false
+Bucket Sort,5000,500,687,40000,normal,false
+Flash Sort,5000,500,882,40000,normal,false
+Spread Sort,5000,500,1360,20000,normal,false
+Counting Sort (Non-Stable),5000,500,48,2004,skewed,false
+Counting Sort (Stable),5000,500,20,22004,skewed,false
+Radix Sort (LSD),5000,500,1128,40000,skewed,false
+Bucket Sort,5000,500,1100,40000,skewed,false
+Flash Sort,5000,500,1056,40000,skewed,false
+Spread Sort,5000,500,1126,20000,skewed,false
+Counting Sort (Non-Stable),5000,500,27,2004,concentrated,false
+Counting Sort (Stable),5000,500,20,22004,concentrated,false
+Radix Sort (LSD),5000,500,1036,40000,concentrated,false
+Bucket Sort,5000,500,460,40000,concentrated,false
+Flash Sort,5000,500,645,40000,concentrated,false
+Spread Sort,5000,500,1123,20000,concentrated,false
+Counting Sort (Non-Stable),5000,1000,44,4004,uniform,false
+Counting Sort (Stable),5000,1000,21,24004,uniform,false
+Radix Sort (LSD),5000,1000,1504,40000,uniform,false
+Bucket Sort,5000,1000,1010,40000,uniform,false
+Flash Sort,5000,1000,1053,40000,uniform,false
+Spread Sort,5000,1000,1612,20000,uniform,false
+Counting Sort (Non-Stable),5000,1000,43,4004,normal,false
+Counting Sort (Stable),5000,1000,20,24004,normal,false
+Radix Sort (LSD),5000,1000,1696,40000,normal,false
+Bucket Sort,5000,1000,873,40000,normal,false
+Flash Sort,5000,1000,900,40000,normal,false
+Spread Sort,5000,1000,1315,20000,normal,false
+Counting Sort (Non-Stable),5000,1000,46,4004,skewed,false
+Counting Sort (Stable),5000,1000,16,24004,skewed,false
+Radix Sort (LSD),5000,1000,1249,40000,skewed,false
+Bucket Sort,5000,1000,983,40000,skewed,false
+Flash Sort,5000,1000,904,40000,skewed,false
+Spread Sort,5000,1000,1290,20000,skewed,false
+Counting Sort (Non-Stable),5000,1000,24,4004,concentrated,false
+Counting Sort (Stable),5000,1000,16,24004,concentrated,false
+Radix Sort (LSD),5000,1000,1252,40000,concentrated,false
+Bucket Sort,5000,1000,403,40000,concentrated,false
+Flash Sort,5000,1000,570,40000,concentrated,false
+Spread Sort,5000,1000,1167,20000,concentrated,false
+Counting Sort (Non-Stable),5000,5000,74,20004,uniform,false
+Counting Sort (Stable),5000,5000,46,40004,uniform,false
+Radix Sort (LSD),5000,5000,1156,40000,uniform,false
+Bucket Sort,5000,5000,973,40000,uniform,false
+Flash Sort,5000,5000,772,40000,uniform,false
+Spread Sort,5000,5000,1173,20000,uniform,false
+Counting Sort (Non-Stable),5000,5000,67,20004,normal,false
+Counting Sort (Stable),5000,5000,18,40004,normal,false
+Radix Sort (LSD),5000,5000,1164,40000,normal,false
+Bucket Sort,5000,5000,920,40000,normal,false
+Flash Sort,5000,5000,741,40000,normal,false
+Spread Sort,5000,5000,1171,20000,normal,false
+Counting Sort (Non-Stable),5000,5000,78,20004,skewed,false
+Counting Sort (Stable),5000,5000,18,40004,skewed,false
+Radix Sort (LSD),5000,5000,1122,40000,skewed,false
+Bucket Sort,5000,5000,980,40000,skewed,false
+Flash Sort,5000,5000,711,40000,skewed,false
+Spread Sort,5000,5000,1117,20000,skewed,false
+Counting Sort (Non-Stable),5000,5000,43,20004,concentrated,false
+Counting Sort (Stable),5000,5000,18,40004,concentrated,false
+Radix Sort (LSD),5000,5000,1079,40000,concentrated,false
+Bucket Sort,5000,5000,548,40000,concentrated,false
+Flash Sort,5000,5000,712,40000,concentrated,false
+Spread Sort,5000,5000,1116,20000,concentrated,false
+Counting Sort (Non-Stable),5000,10000,104,40004,uniform,false
+Counting Sort (Stable),5000,10000,47,60004,uniform,false
+Radix Sort (LSD),5000,10000,1557,40000,uniform,false
+Bucket Sort,5000,10000,974,40000,uniform,false
+Flash Sort,5000,10000,742,40000,uniform,false
+Spread Sort,5000,10000,1409,20000,uniform,false
+Counting Sort (Non-Stable),5000,10000,104,40004,normal,false
+Counting Sort (Stable),5000,10000,70,60004,normal,false
+Radix Sort (LSD),5000,10000,1405,40000,normal,false
+Bucket Sort,5000,10000,850,40000,normal,false
+Flash Sort,5000,10000,686,40000,normal,false
+Spread Sort,5000,10000,1386,20000,normal,false
+Counting Sort (Non-Stable),5000,10000,124,40000,skewed,false
+Counting Sort (Stable),5000,10000,43,60000,skewed,false
+Radix Sort (LSD),5000,10000,1008,40000,skewed,false
+Bucket Sort,5000,10000,826,40000,skewed,false
+Flash Sort,5000,10000,698,40000,skewed,false
+Spread Sort,5000,10000,1034,20000,skewed,false
+Counting Sort (Non-Stable),5000,10000,72,40004,concentrated,false
+Counting Sort (Stable),5000,10000,43,60004,concentrated,false
+Radix Sort (LSD),5000,10000,1301,40000,concentrated,false
+Bucket Sort,5000,10000,645,40000,concentrated,false
+Flash Sort,5000,10000,680,40000,concentrated,false
+Spread Sort,5000,10000,1391,20000,concentrated,false
+Counting Sort (Non-Stable),5000,100000,291,399936,uniform,false
+Counting Sort (Stable),5000,100000,89,419936,uniform,false
+Radix Sort (LSD),5000,100000,1391,40000,uniform,false
+Bucket Sort,5000,100000,836,40000,uniform,false
+Flash Sort,5000,100000,668,40000,uniform,false
+Spread Sort,5000,100000,403,20000,uniform,false
+Counting Sort (Non-Stable),5000,100000,253,400004,normal,false
+Counting Sort (Stable),5000,100000,95,420004,normal,false
+Radix Sort (LSD),5000,100000,1637,40000,normal,false
+Bucket Sort,5000,100000,852,40000,normal,false
+Flash Sort,5000,100000,657,40000,normal,false
+Spread Sort,5000,100000,399,20000,normal,false
+Counting Sort (Non-Stable),5000,100000,233,307700,skewed,false
+Counting Sort (Stable),5000,100000,68,327700,skewed,false
+Radix Sort (LSD),5000,100000,1376,40000,skewed,false
+Bucket Sort,5000,100000,797,40000,skewed,false
+Flash Sort,5000,100000,605,40000,skewed,false
+Spread Sort,5000,100000,382,20000,skewed,false
+Counting Sort (Non-Stable),5000,100000,248,400004,concentrated,false
+Counting Sort (Stable),5000,100000,139,420004,concentrated,false
+Radix Sort (LSD),5000,100000,1591,40000,concentrated,false
+Bucket Sort,5000,100000,812,40000,concentrated,false
+Flash Sort,5000,100000,736,40000,concentrated,false
+Spread Sort,5000,100000,389,20000,concentrated,false
+Counting Sort (Non-Stable),10000,50,34,204,uniform,false
+Counting Sort (Stable),10000,50,24,40204,uniform,false
+Radix Sort (LSD),10000,50,792,80000,uniform,false
+Bucket Sort,10000,50,445,80000,uniform,false
+Flash Sort,10000,50,734,80000,uniform,false
+Spread Sort,10000,50,827,40000,uniform,false
+Counting Sort (Non-Stable),10000,50,34,204,normal,false
+Counting Sort (Stable),10000,50,24,40204,normal,false
+Radix Sort (LSD),10000,50,795,80000,normal,false
+Bucket Sort,10000,50,402,80000,normal,false
+Flash Sort,10000,50,718,80000,normal,false
+Spread Sort,10000,50,849,40000,normal,false
+Counting Sort (Non-Stable),10000,50,36,204,skewed,false
+Counting Sort (Stable),10000,50,24,40204,skewed,false
+Radix Sort (LSD),10000,50,809,80000,skewed,false
+Bucket Sort,10000,50,397,80000,skewed,false
+Flash Sort,10000,50,704,80000,skewed,false
+Spread Sort,10000,50,836,40000,skewed,false
+Counting Sort (Non-Stable),10000,50,34,204,concentrated,false
+Counting Sort (Stable),10000,50,24,40204,concentrated,false
+Radix Sort (LSD),10000,50,784,80000,concentrated,false
+Bucket Sort,10000,50,433,80000,concentrated,false
+Flash Sort,10000,50,698,80000,concentrated,false
+Spread Sort,10000,50,811,40000,concentrated,false
+Counting Sort (Non-Stable),10000,100,41,404,uniform,false
+Counting Sort (Stable),10000,100,52,40404,uniform,false
+Radix Sort (LSD),10000,100,1361,80000,uniform,false
+Bucket Sort,10000,100,489,80000,uniform,false
+Flash Sort,10000,100,900,80000,uniform,false
+Spread Sort,10000,100,1455,40000,uniform,false
+Counting Sort (Non-Stable),10000,100,35,404,normal,false
+Counting Sort (Stable),10000,100,24,40404,normal,false
+Radix Sort (LSD),10000,100,1394,80000,normal,false
+Bucket Sort,10000,100,423,80000,normal,false
+Flash Sort,10000,100,742,80000,normal,false
+Spread Sort,10000,100,1427,40000,normal,false
+Counting Sort (Non-Stable),10000,100,33,404,skewed,false
+Counting Sort (Stable),10000,100,32,40404,skewed,false
+Radix Sort (LSD),10000,100,1334,80000,skewed,false
+Bucket Sort,10000,100,463,80000,skewed,false
+Flash Sort,10000,100,724,80000,skewed,false
+Spread Sort,10000,100,1388,40000,skewed,false
+Counting Sort (Non-Stable),10000,100,32,404,concentrated,false
+Counting Sort (Stable),10000,100,24,40404,concentrated,false
+Radix Sort (LSD),10000,100,1348,80000,concentrated,false
+Bucket Sort,10000,100,359,80000,concentrated,false
+Flash Sort,10000,100,701,80000,concentrated,false
+Spread Sort,10000,100,1358,40000,concentrated,false
+Counting Sort (Non-Stable),10000,500,37,2004,uniform,false
+Counting Sort (Stable),10000,500,24,42004,uniform,false
+Radix Sort (LSD),10000,500,1436,80000,uniform,false
+Bucket Sort,10000,500,848,80000,uniform,false
+Flash Sort,10000,500,1154,80000,uniform,false
+Spread Sort,10000,500,1493,40000,uniform,false
+Counting Sort (Non-Stable),10000,500,40,2004,normal,false
+Counting Sort (Stable),10000,500,25,42004,normal,false
+Radix Sort (LSD),10000,500,1443,80000,normal,false
+Bucket Sort,10000,500,662,80000,normal,false
+Flash Sort,10000,500,1038,80000,normal,false
+Spread Sort,10000,500,1478,40000,normal,false
+Counting Sort (Non-Stable),10000,500,48,2004,skewed,false
+Counting Sort (Stable),10000,500,49,42004,skewed,false
+Radix Sort (LSD),10000,500,1385,80000,skewed,false
+Bucket Sort,10000,500,742,80000,skewed,false
+Flash Sort,10000,500,1135,80000,skewed,false
+Spread Sort,10000,500,1511,40000,skewed,false
+Counting Sort (Non-Stable),10000,500,42,2004,concentrated,false
+Counting Sort (Stable),10000,500,46,42004,concentrated,false
+Radix Sort (LSD),10000,500,1427,80000,concentrated,false
+Bucket Sort,10000,500,444,80000,concentrated,false
+Flash Sort,10000,500,712,80000,concentrated,false
+Spread Sort,10000,500,1409,40000,concentrated,false
+Counting Sort (Non-Stable),10000,1000,47,4004,uniform,false
+Counting Sort (Stable),10000,1000,27,44004,uniform,false
+Radix Sort (LSD),10000,1000,1957,80000,uniform,false
+Bucket Sort,10000,1000,991,80000,uniform,false
+Flash Sort,10000,1000,1289,80000,uniform,false
+Spread Sort,10000,1000,2025,40000,uniform,false
+Counting Sort (Non-Stable),10000,1000,44,4004,normal,false
+Counting Sort (Stable),10000,1000,26,44004,normal,false
+Radix Sort (LSD),10000,1000,1947,80000,normal,false
+Bucket Sort,10000,1000,833,80000,normal,false
+Flash Sort,10000,1000,1163,80000,normal,false
+Spread Sort,10000,1000,1990,40000,normal,false
+Counting Sort (Non-Stable),10000,1000,68,4004,skewed,false
+Counting Sort (Stable),10000,1000,63,44004,skewed,false
+Radix Sort (LSD),10000,1000,1876,80000,skewed,false
+Bucket Sort,10000,1000,964,80000,skewed,false
+Flash Sort,10000,1000,1256,80000,skewed,false
+Spread Sort,10000,1000,1877,40000,skewed,false
+Counting Sort (Non-Stable),10000,1000,47,4004,concentrated,false
+Counting Sort (Stable),10000,1000,55,44004,concentrated,false
+Radix Sort (LSD),10000,1000,1862,80000,concentrated,false
+Bucket Sort,10000,1000,490,80000,concentrated,false
+Flash Sort,10000,1000,770,80000,concentrated,false
+Spread Sort,10000,1000,1882,40000,concentrated,false
+Counting Sort (Non-Stable),10000,5000,99,20004,uniform,false
+Counting Sort (Stable),10000,5000,33,60004,uniform,false
+Radix Sort (LSD),10000,5000,1834,80000,uniform,false
+Bucket Sort,10000,5000,1404,80000,uniform,false
+Flash Sort,10000,5000,1352,80000,uniform,false
+Spread Sort,10000,5000,2342,40000,uniform,false
+Counting Sort (Non-Stable),10000,5000,85,20004,normal,false
+Counting Sort (Stable),10000,5000,44,60004,normal,false
+Radix Sort (LSD),10000,5000,1938,80000,normal,false
+Bucket Sort,10000,5000,1410,80000,normal,false
+Flash Sort,10000,5000,1316,80000,normal,false
+Spread Sort,10000,5000,2141,40000,normal,false
+Counting Sort (Non-Stable),10000,5000,95,20004,skewed,false
+Counting Sort (Stable),10000,5000,50,60004,skewed,false
+Radix Sort (LSD),10000,5000,2114,80000,skewed,false
+Bucket Sort,10000,5000,1609,80000,skewed,false
+Flash Sort,10000,5000,1802,80000,skewed,false
+Spread Sort,10000,5000,3985,40000,skewed,false
+Counting Sort (Non-Stable),10000,5000,83,20004,concentrated,false
+Counting Sort (Stable),10000,5000,65,60004,concentrated,false
+Radix Sort (LSD),10000,5000,2619,80000,concentrated,false
+Bucket Sort,10000,5000,751,80000,concentrated,false
+Flash Sort,10000,5000,1129,80000,concentrated,false
+Spread Sort,10000,5000,2168,40000,concentrated,false
+Counting Sort (Non-Stable),10000,10000,138,40000,uniform,false
+Counting Sort (Stable),10000,10000,42,80000,uniform,false
+Radix Sort (LSD),10000,10000,2040,80000,uniform,false
+Bucket Sort,10000,10000,1680,80000,uniform,false
+Flash Sort,10000,10000,1450,80000,uniform,false
+Spread Sort,10000,10000,2097,40000,uniform,false
+Counting Sort (Non-Stable),10000,10000,129,40004,normal,false
+Counting Sort (Stable),10000,10000,81,80004,normal,false
+Radix Sort (LSD),10000,10000,2601,80000,normal,false
+Bucket Sort,10000,10000,1532,80000,normal,false
+Flash Sort,10000,10000,1263,80000,normal,false
+Spread Sort,10000,10000,2600,40000,normal,false
+Counting Sort (Non-Stable),10000,10000,126,40004,skewed,false
+Counting Sort (Stable),10000,10000,40,80004,skewed,false
+Radix Sort (LSD),10000,10000,2487,80000,skewed,false
+Bucket Sort,10000,10000,1707,80000,skewed,false
+Flash Sort,10000,10000,1379,80000,skewed,false
+Spread Sort,10000,10000,2579,40000,skewed,false
+Counting Sort (Non-Stable),10000,10000,82,40004,concentrated,false
+Counting Sort (Stable),10000,10000,79,80004,concentrated,false
+Radix Sort (LSD),10000,10000,2479,80000,concentrated,false
+Bucket Sort,10000,10000,918,80000,concentrated,false
+Flash Sort,10000,10000,1229,80000,concentrated,false
+Spread Sort,10000,10000,2501,40000,concentrated,false
+Counting Sort (Non-Stable),10000,100000,327,399972,uniform,false
+Counting Sort (Stable),10000,100000,165,439972,uniform,false
+Radix Sort (LSD),10000,100000,2504,80000,uniform,false
+Bucket Sort,10000,100000,2118,80000,uniform,false
+Flash Sort,10000,100000,1400,80000,uniform,false
+Spread Sort,10000,100000,2606,40000,uniform,false
+Counting Sort (Non-Stable),10000,100000,317,400004,normal,false
+Counting Sort (Stable),10000,100000,108,440004,normal,false
+Radix Sort (LSD),10000,100000,3165,80000,normal,false
+Bucket Sort,10000,100000,1572,80000,normal,false
+Flash Sort,10000,100000,1305,80000,normal,false
+Spread Sort,10000,100000,836,40000,normal,false
+Counting Sort (Non-Stable),10000,100000,296,354852,skewed,false
+Counting Sort (Stable),10000,100000,97,394852,skewed,false
+Radix Sort (LSD),10000,100000,2821,80000,skewed,false
+Bucket Sort,10000,100000,1347,80000,skewed,false
+Flash Sort,10000,100000,1175,80000,skewed,false
+Spread Sort,10000,100000,2597,40000,skewed,false
+Counting Sort (Non-Stable),10000,100000,291,399964,concentrated,false
+Counting Sort (Stable),10000,100000,112,439964,concentrated,false
+Radix Sort (LSD),10000,100000,2596,80000,concentrated,false
+Bucket Sort,10000,100000,1623,80000,concentrated,false
+Flash Sort,10000,100000,1338,80000,concentrated,false
+Spread Sort,10000,100000,2582,40000,concentrated,false
